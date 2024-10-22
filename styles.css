@@ -1,0 +1,63 @@
+*{
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+}
+section{
+    height: 100svh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-family: sans-serif;
+    font-weight: 400;
+}
+form{
+    height: auto;
+    width: 350px;
+    background-color: #1a1a1a;
+    border: 1px solid #333;
+    border-radius: 20px;
+    padding: 20px;
+}
+.title{
+    font-size: 28px;
+    font-weight: 600;
+    color: #00bfe0;
+}
+.message{
+    font-size: 20px;
+    color: gray;
+    text-transform: capitalize;
+    margin: 7px 0;
+}
+input{
+    width: 100%;
+    padding: 13px;
+    border: 1px solid #333;
+    border-radius: 10px;
+    margin: 5px 0;
+    background-color: #333;
+    color: white;
+    font-weight: 500;
+}
+.name input{
+    width: 150px;
+}
+button{
+    width: 100%;
+    padding: 10px;
+    background-color: #00bfe0;
+    color: white;
+    font-size: 18px;
+    font-weight: 500;
+    border: 1px solid #00bfe0;
+    border-radius: 10px;
+    margin: 5px 0px;
+}
+.signin{
+    color: white;
+    text-align: center;
+}
+a{
+    color: #00bfe0;
+}
